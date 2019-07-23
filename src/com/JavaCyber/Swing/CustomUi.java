@@ -1,10 +1,11 @@
 package com.JavaCyber.Swing;
 
-//Optimize Import
-import javax.swing.*;
-
-
-
+import javax.swing.JTextField;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JOptionPane;
+import javax.swing.WindowConstants;
 import java.awt.FlowLayout;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
