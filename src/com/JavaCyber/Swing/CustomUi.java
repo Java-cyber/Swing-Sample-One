@@ -11,14 +11,12 @@ import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
 public class CustomUi extends JFrame {
 
     JButton btn;
     JTextField numOne;
     JTextField numTwo;
     JLabel showlb;
-
 
     public CustomUi(){
 
@@ -31,8 +29,6 @@ public class CustomUi extends JFrame {
         add(numOne);
         add(numTwo);
         add(showlb);
-
-
 
         btn.addActionListener(new ActionListener() {
             @Override
@@ -62,9 +58,6 @@ public class CustomUi extends JFrame {
                     showlb.setText(" ");
 
                 }
-
-
-
 
             }
         });
